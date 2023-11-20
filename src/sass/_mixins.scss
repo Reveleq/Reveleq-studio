@@ -1,0 +1,7 @@
+@mixin before {
+    position: absolute;
+    bottom: -.3rem;
+    height: .2rem;
+    content: '';
+
+}
