@@ -299,8 +299,8 @@ left: 0;
     background-color: $gold;
     &__title{
         position: relative;
-        padding-top: 1em;
-        padding-bottom: 1em;
+        padding-top: 2em;
+        padding-bottom: 2em;
         font-size: 2.8rem;
         font-weight: 200;
         color: $light;
@@ -449,8 +449,8 @@ content: '';
     background-color: $light;
     &__title{
         position: relative;
-        padding-top: 1em;
-        margin-bottom: 1em;
+        padding-top: 2em;
+        margin-bottom: 2em;
         font-size: 3rem;
         font-weight: 200;
         text-transform: uppercase;
@@ -577,8 +577,8 @@ content: '';
     background-color: $gold;
     &__title{
         position: relative;
-        padding-top: 1em;
-        margin-bottom: 1em;
+        padding-top: 2em;
+        margin-bottom: 2em;
         font-size: 3rem;
         font-weight: 200;
         text-align: center;
@@ -655,8 +655,8 @@ content: '';
  &__text{
     &-title{
         position: relative;
-        padding-top: 1em;
-        margin-bottom: 1em;
+        padding-top: 2em;
+        margin-bottom: 2em;
         font-size: 3rem;
         font-weight: 200;
         text-align: center;
@@ -949,6 +949,12 @@ font-size: 1.8rem;
         }
     }
 }
+@media (min-width: 1100px) {
+    .about-me__text:before{
+        left: 17%;
+    }
+}
+
 .p-first{
     display: none;
 }
