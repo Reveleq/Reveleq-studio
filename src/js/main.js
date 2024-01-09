@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+AOS.init();
 const burgerBtn = document.querySelector('.mobile-nav__btn')
 const closeBtn = document.querySelector('.mobile-nav__close-btn')
 const mobileNavLinks = document.querySelector('.mobile-nav__links')
@@ -7,6 +8,7 @@ const acutalYear = document.querySelector('.footer__year')
 const trustCard = document.querySelector('.trust-me__card')
 const imgBtn = document.querySelectorAll('.certificates__btn')
 const closePopupBtn = document.querySelectorAll('.certificates__popup-close')
+const popupBg = document.querySelectorAll('.certificates__popup-bg')
 const year = new Date().getFullYear()
 acutalYear.textContent = `${year} © REVELEQ-STUDIO`
 const showLinks = () => {
@@ -40,6 +42,15 @@ imgBtn.forEach( e => {
         e.previousElementSibling.classList.add('active-popup')
 e.previousElementSibling.classList.add('animation-show')
 
+    })
+})
+popupBg.forEach(e => {
+    e.addEventListener('click', () => {
+        e.parentElement.classList.add('animation-hide')
+        e.parentElement.classList.remove('animation-show')
+        setTimeout( () => {
+    e.parentElement.classList.remove('active-popup')
+    } , 501)
     })
 })
 closeBtn.addEventListener('click', hideLinks)
