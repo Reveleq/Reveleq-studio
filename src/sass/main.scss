@@ -320,6 +320,7 @@ left: 0;
     align-items: center;
     margin:  0 5rem;
     margin-bottom: 4rem;
+    width: 20rem;
     
     &-text{
         margin-bottom: 1em;
@@ -906,6 +907,9 @@ position: relative;
  */
  .heartbeat {
 	animation: heartbeat 3s ease-in-out infinite both;
+    &:hover{
+        animation-play-state: paused;
+    }
 }
  @keyframes heartbeat {
     from {
@@ -992,7 +996,7 @@ position: relative;
         }
      &__cards{
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
      }
      &__card{
         margin-bottom: 2em;
