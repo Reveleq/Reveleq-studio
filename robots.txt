@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://reveleq.github.io/Reveleq-studio/sitemap.xml
