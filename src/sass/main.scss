@@ -406,15 +406,18 @@ background-position: center;
 transition: transform .3s;
 overflow: hidden;
 &:hover .portfolio__card-text,
-&:active .portfolio__card-text{
+&:active .portfolio__card-text,
+&:focus .portfolio__card-text{
     left: 0;
 } 
 &:hover .portfolio__card-bg,
-&:active .portfolio__card-text{
+&:active .portfolio__card-text,
+&:focus .portfolio__card-text{
     background-color: #000;
 }
 &:hover,
-&:active{
+&:active,
+&:focus{
 transform: scale(.96);
 
 }
