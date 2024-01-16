@@ -10,6 +10,9 @@ html{
 	scroll-behavior: smooth;
     scroll-padding-top: 5rem;
 }
+section{
+    overflow: hidden;
+}
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
@@ -402,17 +405,21 @@ background-size: cover;
 background-position: center;
 transition: transform .3s;
 overflow: hidden;
-&:hover .portfolio__card-text{
+&:hover .portfolio__card-text,
+&:active .portfolio__card-text{
     left: 0;
 } 
-&:hover .portfolio__card-bg{
+&:hover .portfolio__card-bg,
+&:active .portfolio__card-text{
     background-color: #000;
 }
-&:hover{
+&:hover,
+&:active{
 transform: scale(.96);
 
 }
-&:hover .portfolio__cursor{
+&:hover .portfolio__cursor,
+&:active.portfolio__cursor{
 opacity: 0;
 }
 
@@ -449,7 +456,7 @@ opacity: 0;
     display: block;
     margin: 0 2em;
     color: $light;
-    text-align: justify;
+    text-align: center;
     
 }
 &-btn{
