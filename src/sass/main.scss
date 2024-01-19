@@ -570,6 +570,7 @@ content: '';
 }
 .certificates{
     background-color: $light;
+    padding-bottom: 3em;
     &__title{
         position: relative;
         padding-top: 2em;
@@ -1081,7 +1082,6 @@ position: relative;
         }
     }
     .certificates{
-        padding-bottom: 3em;
         &__box{
             flex-direction: row;
             flex-wrap: wrap;
