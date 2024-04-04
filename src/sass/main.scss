@@ -261,7 +261,7 @@ body {
     font-weight: bold;
     font-size: 3rem;
     &-text {
-        margin-top: 0.5em;
+      margin-top: 0.5em;
       color: $light;
       font-weight: 300;
       font-size: 2rem;
@@ -364,19 +364,25 @@ body {
     }
   }
 }
-//  @media(hover: hover),(pointer: fine){
-//     .portfolio__card-bg{
-//         background-color: #000;
-//     }
-//     .portfolio__card-text{
-//         left: 0;
-//     }
-//     .portfolio__cursor{
-//         opacity: 0;
-//     }
-// }
 .portfolio {
   background-color: $dark;
+  &__more-btn {
+    display: block;
+    margin: 0em auto 3em;
+    padding: 0.7rem;
+    width: 90%;
+    max-width: 18rem;
+    text-align: center;
+    color: $dark;
+    background-color: $white;
+    text-decoration: none;
+    border: 3px solid $dark;
+    transition: color 0.3s, background-color 0.3s;
+    &:hover {
+      color: $white;
+      background-color: $blue;
+    }
+  }
   &__title {
     position: relative;
     padding-top: 2em;
@@ -395,6 +401,7 @@ body {
       content: "";
     }
   }
+
   &__cards {
     padding: 5%;
     display: flex;
@@ -512,6 +519,7 @@ body {
           height: 100%;
           font-size: 1.7rem;
           color: $dark;
+          transition: color 0.3s;
           text-decoration: none;
           z-index: 11;
         }
@@ -538,6 +546,9 @@ body {
         }
 
         &:hover {
+          .portfolio__card-text-btn-link {
+            color: $light;
+          }
           &::after {
             right: 0;
           }
