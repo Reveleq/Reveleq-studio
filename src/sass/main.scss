@@ -276,7 +276,7 @@ body {
 }
 .about-me {
   background-color: $light;
-  padding-bottom: 2em;
+  padding-bottom: 5em;
   &__title {
     position: relative;
     padding-top: 2em;
@@ -366,9 +366,10 @@ body {
 }
 .portfolio {
   background-color: $dark;
+  padding-bottom: 5em;
   &__more-btn {
     display: block;
-    margin: 0em auto 3em;
+    margin: 0em auto 2em;
     padding: 0.7rem;
     width: 90%;
     max-width: 18rem;
@@ -591,7 +592,7 @@ body {
 }
 .certificates {
   background-color: $light;
-  padding-bottom: 3em;
+  padding-bottom: 5em;
   &__title {
     position: relative;
     padding-top: 2em;
@@ -654,7 +655,7 @@ body {
     cursor: pointer;
     transition: transform 0.3s;
     &:hover {
-      transform: scale(1.05);
+      transform: scale(1.01);
     }
   }
   &__img {
@@ -999,26 +1000,6 @@ body {
     animation-timing-function: ease-out;
   }
 }
-
-@media (min-width: 992px) {
-  .mobile-nav {
-    display: none;
-  }
-  .desktop-nav {
-    display: flex;
-  }
-  .header-hero {
-    &__text {
-      left: 50%;
-    }
-  }
-  .portfolio__card {
-    display: block;
-  }
-  .portfolio__mobile-card {
-    display: none;
-  }
-}
 @media (min-width: 768px) {
   .desktop-nav {
     &__link {
@@ -1030,17 +1011,20 @@ body {
       left: 44%;
     }
   }
+  .header-hero {
+    &__title {
+      font-size: 3.5em;
+      &-text {
+        font-size: 2em;
+      }
+    }
+  }
   .about-me {
     &__text {
       margin: 0;
       margin-bottom: 2em;
-
       min-width: 5rem;
       font-size: 1.8rem;
-      // &--second{
-      // margin-right: 1.5em;
-      // margin-left: 0;
-      // }
     }
   }
 
@@ -1120,17 +1104,25 @@ body {
     }
   }
 }
-@media (min-width: 768px) {
+
+@media (min-width: 992px) {
+  .mobile-nav {
+    display: none;
+  }
+  .desktop-nav {
+    display: flex;
+  }
   .header-hero {
-    &__title {
-      font-size: 3.5em;
-      &-text {
-        font-size: 2em;
-      }
+    &__text {
+      left: 50%;
     }
   }
-}
-@media (min-width: 992px) {
+  .portfolio__card {
+    display: block;
+  }
+  .portfolio__mobile-card {
+    display: none;
+  }
   .header {
     &__img {
       background-image: url("/dist/img/header-hero.jpg");
@@ -1166,7 +1158,7 @@ body {
   }
   .trust-me {
     &__title {
-      font-size: 3rem;
+      font-size: 3.5rem;
     }
     &__cards {
       padding-bottom: 1em;
@@ -1177,7 +1169,15 @@ body {
       }
     }
   }
+  .about-me {
+    &__title {
+      font-size: 4rem;
+    }
+  }
   .portfolio {
+    &__title {
+      font-size: 4rem;
+    }
     &__card {
       &-text {
         &-title {
@@ -1194,11 +1194,17 @@ body {
     }
   }
   .certificates {
+    &__title {
+      font-size: 4rem;
+    }
     &__text {
       font-size: 2rem;
     }
   }
   .offer {
+    &__title {
+      font-size: 4rem;
+    }
     &__card {
       height: 45rem;
       &-text {
@@ -1208,6 +1214,13 @@ body {
         &-p {
           font-size: 1.9rem;
         }
+      }
+    }
+  }
+  .contact {
+    &__text {
+      &-title {
+        font-size: 4rem;
       }
     }
   }
