@@ -9,7 +9,7 @@
     />
     <meta
       name="description"
-      content="Reveleq Studio - produkcja stron oraz sklepów internetowych, montaż oraz tworzenie filmów, prowadzenie social mediów"
+      content="Reveleq Studio - produkcja stron, blogów oraz sklepów internetowych, montaż i tworzenie filmów, prowadzenie social mediów"
     />
     <link rel="icon" href="dist/img/logo-header.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -151,7 +151,7 @@
       <h3 class="portfolio__title">Portfolio</h3>
       <div class="wrapper">
         <div class="portfolio__cards">
-          <div class="portfolio__card heartbeat">
+          <div class="portfolio__card">
             <div
               class="portfolio__card-img img-first"
               style="background-image: url('dist/img/dicopendrak.jpg')"
@@ -180,7 +180,7 @@
               </div>
             </div>
           </div>
-          <div class="portfolio__card heartbeat">
+          <div class="portfolio__card">
             <div
               class="portfolio__card-img img-second"
               style="background-image: url('dist/img/kojsowiocki-offer.png')"
@@ -201,6 +201,34 @@
                   <a
                     class="portfolio__card-text-btn-link"
                     href="https://kojsowiocki.ct8.pl"
+                    target="_blank"
+                    >Zobacz</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__card">
+            <div
+              class="portfolio__card-img img-second"
+              style="background-image: url('dist/img/mcprezentacje.png')"
+            >
+              <div class="portfolio__card-bg">
+                <i class="fa-solid fa-arrow-pointer portfolio__cursor"></i>
+              </div>
+              <div class="portfolio__card-text">
+                <h3 class="portfolio__card-text-title">
+                  Projekt "Minecraft Prezentacje"
+                </h3>
+                <p class="portfolio__card-text-p">
+                  Jestem lektorem podkładającym głos pod filmy promujące
+                  projekt, doradzam w kwestii montażu i działam jako programista
+                  zajmując się prowadzeniem strony www
+                </p>
+                <button class="portfolio__card-text-btn">
+                  <a
+                    class="portfolio__card-text-btn-link"
+                    href="https://mcprezentacje.ct8.pl/"
                     target="_blank"
                     >Zobacz</a
                   >
@@ -261,6 +289,32 @@
               </div>
             </div>
           </div>
+          <div class="portfolio__mobile-card portfolio__card">
+            <div
+              class="portfolio__mobile-card-img portfolio__card-img img-second"
+              style="background-image: url('dist/img/mcprezentacje.png')"
+            >
+              <div class="portfolio__mobile-card-bg"></div>
+              <div class="portfolio__mobile-card-text">
+                <h3 class="portfolio__card-text-title">
+                  Projekt "Minecraft Prezentacje"
+                </h3>
+                <p class="portfolio__card-text-p">
+                  Jestem lektorem podkładającym głos pod filmy promujące
+                  projekt, doradzam w kwestii montażu i działam jako programista
+                  zajmując się prowadzeniem strony www
+                </p>
+                <button class="portfolio__card-text-btn">
+                  <a
+                    class="portfolio__card-text-btn-link"
+                    href="https://mcprezentacje.ct8.pl/"
+                    target="_blank"
+                    >Zobacz</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
         <a
           class="portfolio__more-btn"
@@ -274,13 +328,24 @@
       <div class="wrapper">
         <h3 class="certificates__title">Certyfikaty</h3>
         <h4 class="certificates__two-title">Mapa mmc school</h4>
-
         <div class="certificates__box">
           <div class="certificates__link">
             <div class="certificates__popup p-first">
-              <button class="certificates__popup-close">
-                <i class="certificates__popup-close-img fa-solid fa-x"></i>
-              </button>
+              <div class="wrapper">
+                <button class="certificates__popup-close">
+                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
+                </button>
+                <button class="certificates__popup-left-arrow">
+                  <i
+                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
+                  ></i>
+                </button>
+                <button class="certificates__popup-right-arrow">
+                  <i
+                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
+                  ></i>
+                </button>
+              </div>
               <div class="certificates__popup-bg"></div>
               <img
                 class="certificates__popup-img"
@@ -288,7 +353,7 @@
                 alt="certyfikat kurs tworzenia stron www cz I"
               />
             </div>
-            <button class="certificates__btn first">
+            <button class="certificates__btn first" id="1">
               <img
                 class="certificates__img"
                 src="dist/img/Kurs cz I.jpg"
@@ -299,9 +364,22 @@
           </div>
           <div class="certificates__link">
             <div class="certificates__popup p-second">
-              <button class="certificates__popup-close">
-                <i class="certificates__popup-close-img fa-solid fa-x"></i>
-              </button>
+              <div class="wrapper">
+                <button class="certificates__popup-close">
+                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
+                </button>
+
+                <button class="certificates__popup-left-arrow">
+                  <i
+                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
+                  ></i>
+                </button>
+                <button class="certificates__popup-right-arrow">
+                  <i
+                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
+                  ></i>
+                </button>
+              </div>
               <div class="certificates__popup-bg"></div>
               <img
                 class="certificates__popup-img first-img"
@@ -309,7 +387,7 @@
                 alt="certyfikat kurs tworzenia stron www cz II"
               />
             </div>
-            <button class="certificates__btn first">
+            <button class="certificates__btn first" id="2">
               <img
                 class="certificates__img"
                 src="dist/img/Kurs JS 2.jpg"
@@ -320,9 +398,22 @@
           </div>
           <div class="certificates__link">
             <div class="certificates__popup p-third">
-              <button class="certificates__popup-close">
-                <i class="certificates__popup-close-img fa-solid fa-x"></i>
-              </button>
+              <div class="wrapper">
+                <button class="certificates__popup-close">
+                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
+                </button>
+
+                <button class="certificates__popup-left-arrow">
+                  <i
+                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
+                  ></i>
+                </button>
+                <button class="certificates__popup-right-arrow">
+                  <i
+                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
+                  ></i>
+                </button>
+              </div>
               <div class="certificates__popup-bg"></div>
               <img
                 class="certificates__popup-img first-img"
@@ -330,7 +421,7 @@
                 alt="certyfikat kurs tworzenia stron www cz III"
               />
             </div>
-            <button class="certificates__btn first">
+            <button class="certificates__btn first" id="3">
               <img
                 class="certificates__img"
                 src="dist/img/kurs-cz-III1.jpg"
@@ -341,9 +432,22 @@
           </div>
           <div class="certificates__link">
             <div class="certificates__popup p-first">
-              <button class="certificates__popup-close">
-                <i class="certificates__popup-close-img fa-solid fa-x"></i>
-              </button>
+              <div class="wrapper">
+                <button class="certificates__popup-close">
+                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
+                </button>
+
+                <button class="certificates__popup-left-arrow">
+                  <i
+                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
+                  ></i>
+                </button>
+                <button class="certificates__popup-right-arrow">
+                  <i
+                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
+                  ></i>
+                </button>
+              </div>
               <div class="certificates__popup-bg"></div>
               <img
                 class="certificates__popup-img first-img"
@@ -351,7 +455,7 @@
                 alt="certyfikat kurs tworzenia stron www cz IV"
               />
             </div>
-            <button class="certificates__btn first">
+            <button class="certificates__btn first" id="4">
               <img
                 class="certificates__img"
                 src="dist/img/kurs-cz-IV.jpg"
@@ -362,9 +466,22 @@
           </div>
           <div class="certificates__link">
             <div class="certificates__popup p-first">
-              <button class="certificates__popup-close">
-                <i class="certificates__popup-close-img fa-solid fa-x"></i>
-              </button>
+              <div class="wrapper">
+                <button class="certificates__popup-close">
+                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
+                </button>
+
+                <button class="certificates__popup-left-arrow">
+                  <i
+                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
+                  ></i>
+                </button>
+                <button class="certificates__popup-right-arrow">
+                  <i
+                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
+                  ></i>
+                </button>
+              </div>
               <div class="certificates__popup-bg"></div>
               <img
                 class="certificates__popup-img first-img"
@@ -372,7 +489,7 @@
                 alt="certyfikat kurs JavaScript"
               />
             </div>
-            <button class="certificates__btn first">
+            <button class="certificates__btn first" id="5">
               <img
                 class="certificates__img"
                 src="dist/img/Kurs Js.jpg"
@@ -383,9 +500,22 @@
           </div>
           <div class="certificates__link">
             <div class="certificates__popup p-second">
-              <button class="certificates__popup-close">
-                <i class="certificates__popup-close-img fa-solid fa-x"></i>
-              </button>
+              <div class="wrapper">
+                <button class="certificates__popup-close">
+                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
+                </button>
+
+                <button class="certificates__popup-left-arrow">
+                  <i
+                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
+                  ></i>
+                </button>
+                <button class="certificates__popup-right-arrow">
+                  <i
+                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
+                  ></i>
+                </button>
+              </div>
               <div class="certificates__popup-bg"></div>
               <img
                 class="certificates__popup-img first-img"
@@ -393,7 +523,7 @@
                 alt="certyfikat kurs 10 projektów w czystym js"
               />
             </div>
-            <button class="certificates__btn first">
+            <button class="certificates__btn first" id="6">
               <img
                 class="certificates__img"
                 src="dist/img/kurs-10-projektow.jpg"
@@ -402,11 +532,25 @@
             </button>
             <p class="certificates__text">Kurs 10 projektów w JavaScript</p>
           </div>
+
           <div class="certificates__link">
             <div class="certificates__popup">
-              <button class="certificates__popup-close">
-                <i class="certificates__popup-close-img fa-solid fa-x"></i>
-              </button>
+              <div class="wrapper">
+                <button class="certificates__popup-close">
+                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
+                </button>
+
+                <button class="certificates__popup-left-arrow">
+                  <i
+                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
+                  ></i>
+                </button>
+                <button class="certificates__popup-right-arrow">
+                  <i
+                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
+                  ></i>
+                </button>
+              </div>
               <div class="certificates__popup-bg"></div>
               <img
                 class="certificates__popup-img first-img"
@@ -414,7 +558,7 @@
                 alt="certyfikat kurs 15 komponentów na strone www"
               />
             </div>
-            <button class="certificates__btn first">
+            <button class="certificates__btn first" id="7">
               <img
                 class="certificates__img"
                 src="dist/img/Kurs-15-projektow.jpg"
@@ -428,9 +572,22 @@
         <div class="certificates__box">
           <div class="certificates__link">
             <div class="certificates__popup p-first">
-              <button class="certificates__popup-close">
-                <i class="certificates__popup-close-img fa-solid fa-x"></i>
-              </button>
+              <div class="wrapper">
+                <button class="certificates__popup-close">
+                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
+                </button>
+
+                <button class="certificates__popup-left-arrow">
+                  <i
+                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
+                  ></i>
+                </button>
+                <button class="certificates__popup-right-arrow">
+                  <i
+                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
+                  ></i>
+                </button>
+              </div>
               <div class="certificates__popup-bg"></div>
               <img
                 class="certificates__popup-img first-img"
@@ -438,7 +595,7 @@
                 alt="certyfikat kurs giganci programowania część I "
               />
             </div>
-            <button class="certificates__btn first">
+            <button class="certificates__btn first" id="8">
               <img
                 class="certificates__img"
                 src="dist/img/g Kurs cz I .jpg"
@@ -449,9 +606,22 @@
           </div>
           <div class="certificates__link">
             <div class="certificates__popup p-second">
-              <button class="certificates__popup-close">
-                <i class="certificates__popup-close-img fa-solid fa-x"></i>
-              </button>
+              <div class="wrapper">
+                <button class="certificates__popup-close">
+                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
+                </button>
+
+                <button class="certificates__popup-left-arrow">
+                  <i
+                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
+                  ></i>
+                </button>
+                <button class="certificates__popup-right-arrow">
+                  <i
+                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
+                  ></i>
+                </button>
+              </div>
               <div class="certificates__popup-bg"></div>
               <img
                 class="certificates__popup-img first-img"
@@ -459,7 +629,8 @@
                 alt="certyfikat kurs giganci programowania część II"
               />
             </div>
-            <button class="certificates__btn first">
+
+            <button class="certificates__btn first" id="9">
               <img
                 class="certificates__img"
                 src="dist/img/g Kurs cz II.jpg"
@@ -472,9 +643,21 @@
           </div>
           <div class="certificates__link">
             <div class="certificates__popup">
-              <button class="certificates__popup-close">
-                <i class="certificates__popup-close-img fa-solid fa-x"></i>
-              </button>
+              <div class="wrapper">
+                <button class="certificates__popup-close">
+                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
+                </button>
+                <button class="certificates__popup-left-arrow">
+                  <i
+                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
+                  ></i>
+                </button>
+                <button class="certificates__popup-right-arrow">
+                  <i
+                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
+                  ></i>
+                </button>
+              </div>
               <div class="certificates__popup-bg"></div>
               <img
                 class="certificates__popup-img first-img"
@@ -482,7 +665,7 @@
                 alt="certyfikat kurs giganci programowania część III"
               />
             </div>
-            <button class="certificates__btn first">
+            <button class="certificates__btn first" id="10">
               <img
                 class="certificates__img"
                 src="dist/img/g Kurs cz III.jpg"
@@ -496,9 +679,21 @@
         <div class="certificates__box">
           <div class="certificates__link">
             <div class="certificates__popup p-first">
-              <button class="certificates__popup-close">
-                <i class="certificates__popup-close-img fa-solid fa-x"></i>
-              </button>
+              <div class="wrapper">
+                <button class="certificates__popup-close">
+                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
+                </button>
+                <button class="certificates__popup-left-arrow">
+                  <i
+                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
+                  ></i>
+                </button>
+                <button class="certificates__popup-right-arrow">
+                  <i
+                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
+                  ></i>
+                </button>
+              </div>
               <div class="certificates__popup-bg"></div>
               <img
                 class="certificates__popup-img first-img"
@@ -506,7 +701,7 @@
                 alt="certyfikat kurs angular "
               />
             </div>
-            <button class="certificates__btn first">
+            <button class="certificates__btn first" id="11">
               <img
                 class="certificates__img"
                 src="dist/img/kurs angular.jpg"
