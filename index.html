@@ -19,6 +19,10 @@
       crossorigin="anonymous"
     ></script>
     <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
@@ -38,7 +42,6 @@
     </div>
     <a class="desktop-nav__link" href="#o-mnie">O mnie</a>
     <a class="desktop-nav__link" href="#portfolio">Portfolio</a>
-    <a class="desktop-nav__link" href="#certyfikaty">Certyfiakty</a>
     <a class="desktop-nav__link" href="#oferta">Oferta</a>
     <a class="desktop-nav__link" href="#kontakt">Kontakt</a>
   </nav>
@@ -60,10 +63,8 @@
       <button class="mobile-nav__close-btn">
         <i class="fa-solid fa-xmark mobile-nav__close-btn-x"></i>
       </button>
-
       <a class="mobile-nav__link" href="#o-mnie">O mnie</a>
       <a class="mobile-nav__link" href="#portfolio">Portfolio</a>
-      <a class="mobile-nav__link" href="#certyfikaty">Certyfikaty</a>
       <a class="mobile-nav__link" href="#oferta">Oferta</a>
       <a class="mobile-nav__link" href="#kontakt">Kontakt</a>
     </div>
@@ -114,7 +115,7 @@
     </section>
     <section class="about-me" id="o-mnie">
       <div class="wrapper">
-        <h3 class="about-me__title">o mnie</h3>
+        <h3 class="about-me__title title">o mnie</h3>
         <div class="about-me__box" data-aos="fade-right">
           <img
             class="about-me__img"
@@ -146,9 +147,45 @@
         </div>
       </div>
     </section>
-
+    <section class="language">
+      <div class="wrapper">
+        <h3 class="language__text-title title">technologie</h3>
+        <div class="language__box">
+          <div class="language__item">
+            <i class="fa-brands fa-github language__text-icon"></i>
+          </div>
+          <div class="language__item">
+            <i class="fa-brands fa-html5 language__text-icon"></i>
+          </div>
+          <div class="language__item">
+            <i class="fa-brands fa-css3-alt language__text-icon"></i>
+          </div>
+          <div class="language__item">
+            <i class="fa-brands fa-js language__text-icon"></i>
+          </div>
+          <div class="language__item">
+            <i class="fa-brands fa-sass language__text-icon"></i>
+          </div>
+          <div class="language__item">
+            <i class="fa-brands fa-gulp language__text-icon"></i>
+          </div>
+          <div class="language__item">
+            <i class="fa-brands fa-bootstrap language__text-icon"></i>
+          </div>
+          <div class="language__item">
+            <i class="fa-brands fa-angular language__text-icon"></i>
+          </div>
+          <div class="language__item">
+            <i class="fa-brands fa-node language__text-icon"></i>
+          </div>
+          <div class="language__item">
+            <i class="fa-brands fa-wordpress language__text-icon"></i>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="portfolio" id="portfolio">
-      <h3 class="portfolio__title">Portfolio</h3>
+      <h3 class="portfolio__title title">Portfolio</h3>
       <div class="wrapper">
         <div class="portfolio__cards">
           <div class="portfolio__card">
@@ -156,6 +193,7 @@
               class="portfolio__card-img img-first"
               style="background-image: url('dist/img/dicopendrak.jpg')"
             >
+              <h3 class="portfolio__card-title">"DISCO PENDRAK"</h3>
               <div class="portfolio__card-bg">
                 <i class="fa-solid fa-arrow-pointer portfolio__cursor"></i>
               </div>
@@ -164,10 +202,14 @@
                   Projekt "DISCO PENDRAK"
                 </h3>
                 <p class="portfolio__card-text-p">
-                  Jestem załoycielem oraz prowadzę projekt, w którym prowadzimy
-                  content rozrywkowy. Zajmuję się pisaniem scenariuszy, tekstów,
-                  filmowaniem, montowaniem i prowadzeniem mediów
-                  społecznościowych.
+                  Jestem założycielem i liderem projektu tworzącego content
+                  rozrywkowy. Moje obowiązki obejmują:<br />
+                  -Pisanie scenariuszy i tekstów: Tworzę oryginalne i wciągające
+                  treści.<br />
+                  -Filmowanie i montaż: Realizuję nagrania i montuję filmy,
+                  dbając o najwyższą jakość.<br />
+                  -Prowadzenie mediów społecznościowych: Zarządzam naszymi
+                  profilami, zwiększając zaangażowanie i zasięg.
                 </p>
                 <button class="portfolio__card-text-btn">
                   <a
@@ -185,6 +227,7 @@
               class="portfolio__card-img img-second"
               style="background-image: url('dist/img/kojsowiocki-offer.png')"
             >
+              <h3 class="portfolio__card-title">KOJSOWIOCKI</h3>
               <div class="portfolio__card-bg">
                 <i class="fa-solid fa-arrow-pointer portfolio__cursor"></i>
               </div>
@@ -193,9 +236,16 @@
                   Strona www zespołu "Kojsowiocki"
                 </h3>
                 <p class="portfolio__card-text-p">
-                  Zaprojektowałem, napisałem i aktualnie prowadzę stronę www
-                  zespołu regionalnego. Było to moje pierwsze zlecenie
-                  stworzenia projektu od samych podstaw.
+                  Zaprojektowałem, napisałem i obecnie prowadzę stronę
+                  internetową zespołu regionalnego. Było to moje pierwsze
+                  zlecenie stworzenia projektu od podstaw.
+                  <br />
+                  W ramach tego projektu:
+                  <br />
+                  -Projektowanie i tworzenie: Opracowałem koncepcję,
+                  zaprojektowałem wygląd i stworzyłem stronę od zera.<br />
+                  -Zarządzanie i aktualizacja: Regularnie aktualizuję stronę,
+                  aby zawsze była aktualna i funkcjonalna.<br />
                 </p>
                 <button class="portfolio__card-text-btn">
                   <a
@@ -213,6 +263,7 @@
               class="portfolio__card-img img-second"
               style="background-image: url('dist/img/mcprezentacje.png')"
             >
+              <h3 class="portfolio__card-title">"MINECRAFT PREZENTACJE"</h3>
               <div class="portfolio__card-bg">
                 <i class="fa-solid fa-arrow-pointer portfolio__cursor"></i>
               </div>
@@ -221,9 +272,15 @@
                   Projekt "Minecraft Prezentacje"
                 </h3>
                 <p class="portfolio__card-text-p">
-                  Jestem lektorem podkładającym głos pod filmy promujące
-                  projekt, doradzam w kwestii montażu i działam jako programista
-                  zajmując się prowadzeniem strony www
+                  Jako wszechstronny specjalista w projekcie, pełnię wiele
+                  kluczowych ról:<br />
+                  -Lektor: Podkładam głos pod filmy promujące nasz projekt,
+                  dbając o profesjonalne brzmienie i przekaz.<br />
+                  -Doradca ds. montażu: Udzielam wskazówek i porad dotyczących
+                  montażu filmów, aby uzyskać jak najlepszy efekt końcowy.<br />
+                  -Programista i administrator strony www: Projektuję, rozwijam
+                  i prowadzę stronę internetową, zapewniając jej sprawne
+                  działanie i aktualność.<br />
                 </p>
                 <button class="portfolio__card-text-btn">
                   <a
@@ -247,10 +304,14 @@
                   Projekt "DISCO PENDRAK"
                 </h3>
                 <p class="portfolio__card-text-p">
-                  Jestem załoycielem oraz prowadzę projekt, w którym prowadzimy
-                  content rozrywkowy. Zajmuję się pisaniem scenariuszy, tekstów,
-                  filmowaniem, montowaniem i prowadzeniem mediów
-                  społecznościowych.
+                  Jestem założycielem i liderem projektu tworzącego content
+                  rozrywkowy. Moje obowiązki obejmują:<br />
+                  -Pisanie scenariuszy i tekstów: Tworzę oryginalne i wciągające
+                  treści.<br />
+                  -Filmowanie i montaż: Realizuję nagrania i montuję filmy,
+                  dbając o najwyższą jakość.<br />
+                  -Prowadzenie mediów społecznościowych: Zarządzam naszymi
+                  profilami, zwiększając zaangażowanie i zasięg.
                 </p>
                 <button class="portfolio__card-text-btn">
                   <a
@@ -274,9 +335,16 @@
                   Strona www zespołu "Kojsowiocki"
                 </h3>
                 <p class="portfolio__card-text-p">
-                  Zaprojektowałem, napisałem i aktualnie prowadzę stronę www
-                  zespołu regionalnego. Było to moje pierwsze zlecenie
-                  stworzenia projektu od samych podstaw.
+                  Zaprojektowałem, napisałem i obecnie prowadzę stronę
+                  internetową zespołu regionalnego. Było to moje pierwsze
+                  zlecenie stworzenia projektu od podstaw.
+                  <br />
+                  W ramach tego projektu:
+                  <br />
+                  -Projektowanie i tworzenie: Opracowałem koncepcję,
+                  zaprojektowałem wygląd i stworzyłem stronę od zera.<br />
+                  -Zarządzanie i aktualizacja: Regularnie aktualizuję stronę,
+                  aby zawsze była aktualna i funkcjonalna.<br />
                 </p>
                 <button class="portfolio__card-text-btn">
                   <a
@@ -300,9 +368,15 @@
                   Projekt "Minecraft Prezentacje"
                 </h3>
                 <p class="portfolio__card-text-p">
-                  Jestem lektorem podkładającym głos pod filmy promujące
-                  projekt, doradzam w kwestii montażu i działam jako programista
-                  zajmując się prowadzeniem strony www
+                  Jako wszechstronny specjalista w projekcie, pełnię wiele
+                  kluczowych ról:<br />
+                  -Lektor: Podkładam głos pod filmy promujące nasz projekt,
+                  dbając o profesjonalne brzmienie i przekaz.<br />
+                  -Doradca ds. montażu: Udzielam wskazówek i porad dotyczących
+                  montażu filmów, aby uzyskać jak najlepszy efekt końcowy.<br />
+                  -Programista i administrator strony www: Projektuję, rozwijam
+                  i prowadzę stronę internetową, zapewniając jej sprawne
+                  działanie i aktualność.<br />
                 </p>
                 <button class="portfolio__card-text-btn">
                   <a
@@ -324,454 +398,76 @@
         >
       </div>
     </section>
-    <section class="certificates" id="certyfikaty">
-      <div class="wrapper">
-        <h3 class="certificates__title">Certyfikaty</h3>
-        <h4 class="certificates__two-title">Mapa mmc school</h4>
-        <div class="certificates__box">
-          <div class="certificates__link">
-            <div class="certificates__popup p-first">
-              <div class="wrapper">
-                <button class="certificates__popup-close">
-                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
-                </button>
-                <button class="certificates__popup-left-arrow">
-                  <i
-                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
-                  ></i>
-                </button>
-                <button class="certificates__popup-right-arrow">
-                  <i
-                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
-                  ></i>
-                </button>
-              </div>
-              <div class="certificates__popup-bg"></div>
-              <img
-                class="certificates__popup-img"
-                src="dist/img/Kurs cz I.jpg"
-                alt="certyfikat kurs tworzenia stron www cz I"
-              />
-            </div>
-            <button class="certificates__btn first" id="1">
-              <img
-                class="certificates__img"
-                src="dist/img/Kurs cz I.jpg"
-                alt="certyfikat kurs tworzenia stron www cz I"
-              />
-            </button>
-            <p class="certificates__text">Kurs tworzenia stron www cz. 1</p>
-          </div>
-          <div class="certificates__link">
-            <div class="certificates__popup p-second">
-              <div class="wrapper">
-                <button class="certificates__popup-close">
-                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
-                </button>
-
-                <button class="certificates__popup-left-arrow">
-                  <i
-                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
-                  ></i>
-                </button>
-                <button class="certificates__popup-right-arrow">
-                  <i
-                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
-                  ></i>
-                </button>
-              </div>
-              <div class="certificates__popup-bg"></div>
-              <img
-                class="certificates__popup-img first-img"
-                src="dist/img/Kurs JS 2.jpg"
-                alt="certyfikat kurs tworzenia stron www cz II"
-              />
-            </div>
-            <button class="certificates__btn first" id="2">
-              <img
-                class="certificates__img"
-                src="dist/img/Kurs JS 2.jpg"
-                alt="certyfikat kurs tworzenia stron www cz II"
-              />
-            </button>
-            <p class="certificates__text">Kurs tworzenia stron www cz. 2</p>
-          </div>
-          <div class="certificates__link">
-            <div class="certificates__popup p-third">
-              <div class="wrapper">
-                <button class="certificates__popup-close">
-                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
-                </button>
-
-                <button class="certificates__popup-left-arrow">
-                  <i
-                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
-                  ></i>
-                </button>
-                <button class="certificates__popup-right-arrow">
-                  <i
-                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
-                  ></i>
-                </button>
-              </div>
-              <div class="certificates__popup-bg"></div>
-              <img
-                class="certificates__popup-img first-img"
-                src="dist/img/kurs-cz-III1.jpg"
-                alt="certyfikat kurs tworzenia stron www cz III"
-              />
-            </div>
-            <button class="certificates__btn first" id="3">
-              <img
-                class="certificates__img"
-                src="dist/img/kurs-cz-III1.jpg"
-                alt="certyfikat kurs tworzenia stron www cz III"
-              />
-            </button>
-            <p class="certificates__text">Kurs tworzenia stron www cz. 3</p>
-          </div>
-          <div class="certificates__link">
-            <div class="certificates__popup p-first">
-              <div class="wrapper">
-                <button class="certificates__popup-close">
-                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
-                </button>
-
-                <button class="certificates__popup-left-arrow">
-                  <i
-                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
-                  ></i>
-                </button>
-                <button class="certificates__popup-right-arrow">
-                  <i
-                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
-                  ></i>
-                </button>
-              </div>
-              <div class="certificates__popup-bg"></div>
-              <img
-                class="certificates__popup-img first-img"
-                src="dist/img/kurs-cz-IV.jpg "
-                alt="certyfikat kurs tworzenia stron www cz IV"
-              />
-            </div>
-            <button class="certificates__btn first" id="4">
-              <img
-                class="certificates__img"
-                src="dist/img/kurs-cz-IV.jpg"
-                alt="certyfikat kurs tworzenia stron www cz IV"
-              />
-            </button>
-            <p class="certificates__text">Kurs tworzenia stron www cz. 4</p>
-          </div>
-          <div class="certificates__link">
-            <div class="certificates__popup p-first">
-              <div class="wrapper">
-                <button class="certificates__popup-close">
-                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
-                </button>
-
-                <button class="certificates__popup-left-arrow">
-                  <i
-                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
-                  ></i>
-                </button>
-                <button class="certificates__popup-right-arrow">
-                  <i
-                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
-                  ></i>
-                </button>
-              </div>
-              <div class="certificates__popup-bg"></div>
-              <img
-                class="certificates__popup-img first-img"
-                src="dist/img/Kurs Js.jpg"
-                alt="certyfikat kurs JavaScript"
-              />
-            </div>
-            <button class="certificates__btn first" id="5">
-              <img
-                class="certificates__img"
-                src="dist/img/Kurs Js.jpg"
-                alt="certyfikat kurs JavaScript"
-              />
-            </button>
-            <p class="certificates__text">Kurs JavaScript</p>
-          </div>
-          <div class="certificates__link">
-            <div class="certificates__popup p-second">
-              <div class="wrapper">
-                <button class="certificates__popup-close">
-                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
-                </button>
-
-                <button class="certificates__popup-left-arrow">
-                  <i
-                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
-                  ></i>
-                </button>
-                <button class="certificates__popup-right-arrow">
-                  <i
-                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
-                  ></i>
-                </button>
-              </div>
-              <div class="certificates__popup-bg"></div>
-              <img
-                class="certificates__popup-img first-img"
-                src="dist/img/kurs-10-projektow.jpg"
-                alt="certyfikat kurs 10 projektów w czystym js"
-              />
-            </div>
-            <button class="certificates__btn first" id="6">
-              <img
-                class="certificates__img"
-                src="dist/img/kurs-10-projektow.jpg"
-                alt="certyfikat kurs 10 projektów w czystym js"
-              />
-            </button>
-            <p class="certificates__text">Kurs 10 projektów w JavaScript</p>
-          </div>
-
-          <div class="certificates__link">
-            <div class="certificates__popup">
-              <div class="wrapper">
-                <button class="certificates__popup-close">
-                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
-                </button>
-
-                <button class="certificates__popup-left-arrow">
-                  <i
-                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
-                  ></i>
-                </button>
-                <button class="certificates__popup-right-arrow">
-                  <i
-                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
-                  ></i>
-                </button>
-              </div>
-              <div class="certificates__popup-bg"></div>
-              <img
-                class="certificates__popup-img first-img"
-                src="dist/img/Kurs-15-projektow.jpg"
-                alt="certyfikat kurs 15 komponentów na strone www"
-              />
-            </div>
-            <button class="certificates__btn first" id="7">
-              <img
-                class="certificates__img"
-                src="dist/img/Kurs-15-projektow.jpg"
-                alt="certyfikat kurs 15 komponentów na strone www"
-              />
-            </button>
-            <p class="certificates__text">Kurs 15 komponentów na strone www</p>
-          </div>
-        </div>
-        <h4 class="certificates__two-title">Giganci Programowania</h4>
-        <div class="certificates__box">
-          <div class="certificates__link">
-            <div class="certificates__popup p-first">
-              <div class="wrapper">
-                <button class="certificates__popup-close">
-                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
-                </button>
-
-                <button class="certificates__popup-left-arrow">
-                  <i
-                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
-                  ></i>
-                </button>
-                <button class="certificates__popup-right-arrow">
-                  <i
-                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
-                  ></i>
-                </button>
-              </div>
-              <div class="certificates__popup-bg"></div>
-              <img
-                class="certificates__popup-img first-img"
-                src="dist/img/g Kurs cz I .jpg"
-                alt="certyfikat kurs giganci programowania część I "
-              />
-            </div>
-            <button class="certificates__btn first" id="8">
-              <img
-                class="certificates__img"
-                src="dist/img/g Kurs cz I .jpg"
-                alt="certyfikat kurs giganci programowania część I"
-              />
-            </button>
-            <p class="certificates__text">Kurs tworzenia stron internetowych</p>
-          </div>
-          <div class="certificates__link">
-            <div class="certificates__popup p-second">
-              <div class="wrapper">
-                <button class="certificates__popup-close">
-                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
-                </button>
-
-                <button class="certificates__popup-left-arrow">
-                  <i
-                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
-                  ></i>
-                </button>
-                <button class="certificates__popup-right-arrow">
-                  <i
-                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
-                  ></i>
-                </button>
-              </div>
-              <div class="certificates__popup-bg"></div>
-              <img
-                class="certificates__popup-img first-img"
-                src="dist/img/g Kurs cz II.jpg"
-                alt="certyfikat kurs giganci programowania część II"
-              />
-            </div>
-
-            <button class="certificates__btn first" id="9">
-              <img
-                class="certificates__img"
-                src="dist/img/g Kurs cz II.jpg"
-                alt="certyfikat kurs giganci programowania część II"
-              />
-            </button>
-            <p class="certificates__text">
-              Kurs zawaansowany twórca stron internetowych
-            </p>
-          </div>
-          <div class="certificates__link">
-            <div class="certificates__popup">
-              <div class="wrapper">
-                <button class="certificates__popup-close">
-                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
-                </button>
-                <button class="certificates__popup-left-arrow">
-                  <i
-                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
-                  ></i>
-                </button>
-                <button class="certificates__popup-right-arrow">
-                  <i
-                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
-                  ></i>
-                </button>
-              </div>
-              <div class="certificates__popup-bg"></div>
-              <img
-                class="certificates__popup-img first-img"
-                src="dist/img/g Kurs cz III.jpg"
-                alt="certyfikat kurs giganci programowania część III"
-              />
-            </div>
-            <button class="certificates__btn first" id="10">
-              <img
-                class="certificates__img"
-                src="dist/img/g Kurs cz III.jpg"
-                alt="certyfikat kurs giganci programowania część III"
-              />
-            </button>
-            <p class="certificates__text">Kurs ekspert stron internetowych</p>
-          </div>
-        </div>
-        <h4 class="certificates__two-title">Framework Angular</h4>
-        <div class="certificates__box">
-          <div class="certificates__link">
-            <div class="certificates__popup p-first">
-              <div class="wrapper">
-                <button class="certificates__popup-close">
-                  <i class="certificates__popup-close-img fa-solid fa-x"></i>
-                </button>
-                <button class="certificates__popup-left-arrow">
-                  <i
-                    class="certificates__popup-left-arrow-img fa-solid fa-chevron-left"
-                  ></i>
-                </button>
-                <button class="certificates__popup-right-arrow">
-                  <i
-                    class="certificates__popup-right-arrow-img fa-solid fa-chevron-right"
-                  ></i>
-                </button>
-              </div>
-              <div class="certificates__popup-bg"></div>
-              <img
-                class="certificates__popup-img first-img"
-                src="dist/img/kurs angular.jpg"
-                alt="certyfikat kurs angular "
-              />
-            </div>
-            <button class="certificates__btn first" id="11">
-              <img
-                class="certificates__img"
-                src="dist/img/kurs angular.jpg"
-                alt="certyfikat kurs angular"
-              />
-            </button>
-            <p class="certificates__text">Angular od podstaw</p>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="offer" id="oferta">
       <div class="wrapper">
-        <h3 class="offer__title">Oferta</h3>
+        <h3 class="offer__title title">Oferta</h3>
         <div class="offer__cards">
           <div class="offer__card" data-aos="fade-right">
             <div
               class="offer__card-img first-offer"
-              style="background-image: url('dist/img/offer-small.jpg')"
             >
               <div class="offer__card-bg"></div>
               <div class="offer__card-text">
-                <h4 class="offer__card-text-title">Produkcja stron www</h4>
+                <i class="fa-solid fa-code offer__card-text-icon"></i>
+                <h4 class="offer__card-text-title title">
+                  Produkcja stron www
+                </h4>
               </div>
             </div>
             <p class="offer__card-text-p">
-              Projektowanie mockopów, tworzenie oraz prowadzenie stron, sklepów
-              internetowych i blogów.
+              Tworzymy nowoczesne i funkcjonalne strony oraz sklepy internetowe
+              dostosowane do Twoich potrzeb. Zapewniamy pełne wsparcie od
+              projektu po wdrożenie.
             </p>
           </div>
           <div class="offer__card" data-aos="fade-down">
             <div
               class="offer__card-img second-offer"
-              style="background-image: url('dist/img/movie-maker.jpg')"
             >
               <div class="offer__card-bg"></div>
               <div class="offer__card-text">
-                <h4 class="offer__card-text-title">
-                  Produkacja i montaż filmów
+                <i class="fa-solid fa-clapperboard offer__card-text-icon"></i>
+                <h4 class="offer__card-text-title title">
+                  Realizacja i montaż filmów
                 </h4>
               </div>
+              <div class="offer__card-text-box">
+
               <p class="offer__card-text-p">
-                Montaż, produkcja krótkich filmików np: na imprezy
-                okoliczniościowe oraz tworzenie "amatorskich" filmów promujących
-                firmę.
+                Usługi filmowe od pomysłu po finalny montaż. Tworzymy filmy
+                promocyjne, eventowe i teledyski z najwyższą jakością jaką
+                możemy zapewnić.
               </p>
+              </div>
             </div>
           </div>
           <div class="offer__card" data-aos="fade-left">
             <div
               class="offer__card-img third-offer"
-              style="background-image: url('dist/img/social-media.jpg')"
             >
               <div class="offer__card-bg"></div>
               <div class="offer__card-text">
-                <h4 class="offer__card-text-title">
+                <i
+                  class="fa-solid fa-share-from-square offer__card-text-icon"
+                ></i>
+                <h4 class="offer__card-text-title title">
                   Prowadzenie social mediów
                 </h4>
               </div>
+              <div class="offer__card-text-box">
               <p class="offer__card-text-p">
-                Stworzenie oraz zarządzanie profilami na (facebooku,
-                instagramie, tik toku) firmy lub osoby prywatnej.
+                Zwiększ swoją widoczność online dzięki naszej kompleksowej
+                obsłudze social media. Tworzymy treści, zarządzamy profilami i
+                dbamy o interakcję z Twoimi odbiorcami.
               </p>
+            </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section class="contact" id="kontakt">
-      <h3 class="contact__text-title">kontakt</h3>
+      <h3 class="contact__text-title title">kontakt</h3>
       <div class="contact__center-box">
         <div class="contact__box">
           <div class="contact__item">
@@ -783,6 +479,9 @@
               reveleq@gmail.com</a
             >
           </div>
+        </div>
+        <h3 class="contact__text-title title">social media</h3>
+        <div class="contact__box">
           <div class="contact__item">
             <a
               href="https://www.instagram.com/reveleq_studio/"
@@ -797,7 +496,8 @@
               href="https://www.tiktok.com/@reveleqstudio"
               target="_blank"
               class="contact__text-paragraph"
-              ><i class="fa-brands fa-tiktok contact__icon"></i> @reveleqstudio</a
+              ><i class="fa-brands fa-tiktok contact__icon"></i>
+              @reveleqstudio</a
             >
           </div>
           <div class="contact__item">
@@ -826,7 +526,6 @@
       <div class="footer__links">
         <a href="#o-mnie" class="footer__link">O mnie</a>
         <a href="#portfolio" class="footer__link">Portfolio</a>
-        <a href="#certyfikaty" class="footer__link">Certyfikaty</a>
         <a href="#oferta" class="footer__link">Oferta</a>
         <a href="#kontakt" class="footer__link">Kontakt</a>
       </div>
