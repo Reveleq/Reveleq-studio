@@ -41,7 +41,7 @@
         />
       </a>
     </div>
-    <a class="desktop-nav__link" href="#o-mnie">O mnie</a>
+    <a class="desktop-nav__link" href="#o-nas">O nas</a>
     <a class="desktop-nav__link" href="#portfolio">Portfolio</a>
     <a class="desktop-nav__link" href="#oferta">Oferta</a>
     <a class="desktop-nav__link" href="#kontakt">Kontakt</a>
@@ -64,7 +64,7 @@
       <button class="mobile-nav__close-btn">
         <i class="fa-solid fa-xmark mobile-nav__close-btn-x"></i>
       </button>
-      <a class="mobile-nav__link" href="#o-mnie">O mnie</a>
+      <a class="mobile-nav__link" href="#o-nas">O nas</a>
       <a class="mobile-nav__link" href="#portfolio">Portfolio</a>
       <a class="mobile-nav__link" href="#oferta">Oferta</a>
       <a class="mobile-nav__link" href="#kontakt">Kontakt</a>
@@ -74,7 +74,7 @@
     <section class="header-hero">
       <div
         class="header-hero__img"
-        style="background-image: url('dist/img/header-hero-small.jpg')"
+        style="background-image: url('dist/img/header-hero.jpg')"
       >
         <div class="header-hero__bg"></div>
         <div class="header-hero__text">
@@ -114,37 +114,74 @@
         </div>
       </div>
     </section>
-    <section class="about-me" id="o-mnie">
+    <section class="about-me" id="o-nas">
       <div class="wrapper">
-        <h3 class="about-me__title title">o mnie</h3>
+        <h3 class="about-me__title title">o nas</h3>
         <div class="about-me__box" data-aos="fade-right">
-          <img
-            class="about-me__img"
-            src="dist/img/about-me.jpg"
-            alt="zdjęcie osoby prowadzącej reveleq-studio"
-          />
-          <p class="about-me__text">
-            Mam na imię Damian. Jestem bardzo początkującym Front-end
-            Developerem. Aktualnie, cały czas się uczę, w jaki sposób tworzyć
-            strony www i aplikacje webowe. W wolnym czasie prowadzę z kolegami
-            projekt "DISCO PENDRAK", przy którym rozwijam swoje umiejętności w
-            nagrywaniu i montowaniu filmów. Moim marzeniem jest założyć własną
-            działalność i pomagać ludzom w reklamowaniu swoich produktów oraz
-            firm.
-          </p>
-        </div>
-        <div class="about-me__box about-me__box--second" data-aos="fade-left">
           <img
             class="about-me__img about-me__img--second about-me__second-img"
             src="dist/img/logo-header.jpg"
             alt="logo reveleq-studio"
           />
-          <p class="about-me__text about-me__text--second">
-            Jestem osobą młodą, która zrozumiała, że warto jak najszybciej uczyć
-            się umiejętności zarabiania pieniędzy i dlatego zacząłem naukę w
-            takim wieku żeby pomagać ludziom. Zapraszam do zapoznania się z moją
-            ofertą.
+          <p class="about-me__text">
+            Witaj w <span style="font-weight: bold">REVELEQ-STUDIO</span> –
+            miejscu, gdzie kreatywność spotyka nowoczesne technologie! Jesteśmy
+            dynamicznym zespołem młodych, pełnych pasji osób, które łączą
+            doświadczenie z innowacyjnym podejściem, by pomóc Twojej marce
+            zaistnieć w internecie i poza nim. Tworzymy z pasją, działamy z
+            precyzją i wierzymy w siłę opowieści. Zaufaj nam i wspólnie wnieśmy
+            Twoje projekty na wyższy poziom!
           </p>
+        </div>
+        <div class="about-me__box about-me__box--second" data-aos="fade-left">
+          <img
+            class="about-me__img"
+            src="dist/img/reveleq.JPG"
+            alt="zdjęcie osoby prowadzącej reveleq-studio"
+          />
+          <p class="about-me__text about-me__text--second">
+            Nasza historia zaczęła się od Damiana, założyciela i prezesa, który
+            z pasją do programowania i wizji rozwoju stworzył fundamenty
+            REVELEQ-STUDIO. Z czasem do Damiana dołączyli:
+          </p>
+        </div>
+        <div class="about-me__box" data-aos="fade-right">
+          <img
+            class="about-me__img about-me__img--second about-me__second-img"
+            src="dist/img/avatar.png"
+            alt="awatar osoby"
+          />
+          <p class="about-me__text">
+            <span style="font-weight: bold">Grzegorz</span>, nasz mistrz obrazu,
+            operator kamery i fotograf, który uchwyci każdą chwilę w najlepszym
+            świetle,
+          </p>
+        </div>
+        <div class="about-me__box" data-aos="fade-right">
+          <img
+            class="about-me__img about-me__img--second about-me__second-img"
+            src="dist/img/avatar.png"
+            alt="awatar osoby"
+          />
+          <p class="about-me__text">
+            <span style="font-weight: bold">Dominik</span>, kierownik planu i
+            scenarzysta, który dba o każdy detal produkcji i tworzy scenariusze,
+            które zachwycają.
+          </p>
+        </div>
+        <div class="about-me__box" data-aos="fade-right">
+          <img
+            class="about-me__img about-me__img--second about-me__second-img"
+            src="dist/img/avatar.png"
+            alt="awatar osoby"
+          />
+          <p class="about-me__text">
+            <span style="font-weight: bold">Krzysztof</span>, utalentowany
+            montażysta, który sprawia, że obrazy ożywają i opowiadają historie,
+          </p>
+        </div>
+        <div class="about-me__box about-me__box--second" data-aos="fade-left">
+          <p class="about-me__text about-me__text--last"></p>
         </div>
       </div>
     </section>
@@ -191,6 +228,118 @@
         <div class="portfolio__cards">
           <div class="portfolio__card">
             <div
+              class="portfolio__card-img img-second"
+              style="background-image: url('dist/img/gabriela&pawel.jpg')"
+            >
+              <h3 class="portfolio__card-title">Gabriela & Paweł</h3>
+              <div class="portfolio__card-bg">
+                <i class="fa-solid fa-arrow-pointer portfolio__cursor"></i>
+              </div>
+              <div class="portfolio__card-text">
+                <h3 class="portfolio__card-text-title">
+                  Życzenia ślubne dla rodziców
+                </h3>
+                <p class="portfolio__card-text-p">
+                  Filmowa realizacja życzeń od Pary Młodej dla rodziców
+                  (Gabriela & Paweł)
+                </p>
+                <button class="portfolio__card-text-btn">
+                  <a
+                    class="portfolio__card-text-btn-link"
+                    href=""
+                    target="_blank"
+                    >Zobacz</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__card">
+            <div
+              class="portfolio__card-img img-second"
+              style="background-image: url('dist/img/futsal.jpeg')"
+            >
+              <h3 class="portfolio__card-title">SUSKI FUTSAL</h3>
+              <div class="portfolio__card-bg">
+                <i class="fa-solid fa-arrow-pointer portfolio__cursor"></i>
+              </div>
+              <div class="portfolio__card-text">
+                <h3 class="portfolio__card-text-title">
+                  Skróty z przebiegu kolejek turnieju
+                </h3>
+                <p class="portfolio__card-text-p">
+                  Realizacja krótkich filmów skrótowych przedstawiających każdą
+                  kolejkę "SUSKIEJ AMATORSKIEJ LIGI FUTSALU"
+                </p>
+                <button class="portfolio__card-text-btn">
+                  <a
+                    class="portfolio__card-text-btn-link"
+                    href="https://www.youtube.com/playlist?list=PLBjb8viRNM_hTqF-Al1jVLPrusj9A4Hbx"
+                    target="_blank"
+                    >Zobacz</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__card">
+            <div
+              class="portfolio__card-img img-second"
+              style="background-image: url('dist/img/advo-cup.jpeg')"
+            >
+              <h3 class="portfolio__card-title">ADVO-CUP ZAWOJA 2024</h3>
+              <div class="portfolio__card-bg">
+                <i class="fa-solid fa-arrow-pointer portfolio__cursor"></i>
+              </div>
+              <div class="portfolio__card-text">
+                <h3 class="portfolio__card-text-title">
+                  Film z imprezy ADVO-CUP
+                </h3>
+                <p class="portfolio__card-text-p">
+                  Stworzenie filmu podsumowującego VI Turniej Halowej Piłki
+                  Nożnej o Puchar Dziekana ORA Bielsko-Biała.
+                </p>
+                <button class="portfolio__card-text-btn">
+                  <a
+                    class="portfolio__card-text-btn-link"
+                    href="https://www.youtube.com/watch?v=j7uOaRI6LPw&ab_channel=REVELEQSTUDIO"
+                    target="_blank"
+                    >Zobacz</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__card">
+            <div
+              class="portfolio__card-img img-second"
+              style="background-image: url('dist/img/andrzejki.jpeg')"
+            >
+              <h3 class="portfolio__card-title">Andrzejki OSP Kojszówka</h3>
+              <div class="portfolio__card-bg">
+                <i class="fa-solid fa-arrow-pointer portfolio__cursor"></i>
+              </div>
+              <div class="portfolio__card-text">
+                <h3 class="portfolio__card-text-title">
+                  Film z zabawy Andrzejkowej
+                </h3>
+                <p class="portfolio__card-text-p">
+                  Realizacja filmu z imprezy Andrzejkowej organizowanej przez
+                  OSP Kojszówka.
+                </p>
+                <button class="portfolio__card-text-btn">
+                  <a
+                    class="portfolio__card-text-btn-link"
+                    href="https://www.youtube.com/watch?v=jpZGIk_UrPQ"
+                    target="_blank"
+                    >Zobacz</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__card">
+            <div
               class="portfolio__card-img img-first"
               style="background-image: url('dist/img/000.png')"
             >
@@ -201,13 +350,8 @@
               <div class="portfolio__card-text">
                 <h3 class="portfolio__card-text-title">Film "PUNKT ZWROTNY"</h3>
                 <p class="portfolio__card-text-p">
-                  Produkcja Krótkometrażowego Filmu Edukacyjnego We współpracy z
-                  fundacją Euro-idea zrealizowałem krótkometrażowy film
-                  edukacyjny. Moje zadania obejmowały:<br />
-                  Filmowanie: Odpowiadałem za rejestrowanie materiału wideo,
-                  dbając o jakość obrazu i ujęć.<br />
-                  Obsługa dźwięku: Zajmowałem się nagrywaniem, zapewniając
-                  klarowność i profesjonalizm nagrań.
+                  Realizacja filmu profilaktyczno-edukacyjnego w tematyce
+                  przemocy
                 </p>
                 <button class="portfolio__card-text-btn">
                   <a
@@ -226,7 +370,7 @@
               style="background-image: url('dist/img/parafia.jpg')"
             >
               <h3 class="portfolio__card-title">
-                Parafia pw. Matki Bożej Częstochowskiej w Kojszówce-Wieprzcu
+                Parafia w Kojszówce-Wieprzcu
               </h3>
               <div class="portfolio__card-bg">
                 <i class="fa-solid fa-arrow-pointer portfolio__cursor"></i>
@@ -236,16 +380,8 @@
                   Strona internetowa parafii
                 </h3>
                 <p class="portfolio__card-text-p">
-                  Zrealizowałem projekt odświeżenia strony internetowej Parafii
-                  Kojszówka-Wieprzec, obejmujący:<br />
-                  Stworzenie nowej strony: Opracowałem nowoczesną wersję strony,
-                  zastępując starą i poprawiając jej funkcjonalność oraz wygląd.
-                  <br />
-                  Sesja zdjęciowa: Wykonałem profesjonalne zdjęcia kościołów
-                  parafii, które zostały umieszczone na stronie, podkreślając
-                  ich architekturę.<br />
-                  Ten projekt połączył nowoczesny design z tradycją, poprawiając
-                  dostępność i estetykę strony parafialnej.
+                  Stworzenie odświezonej wersji strony internetowej parafii oraz
+                  wykoanie sesji zdjęciowej
                 </p>
                 <button class="portfolio__card-text-btn">
                   <a
@@ -272,65 +408,13 @@
                   Reklama firmy "DROBDEX"
                 </h3>
                 <p class="portfolio__card-text-p">
-                  W ramach kompleksowej promocji firmy, specjalizującej się w
-                  produkcji elementów do palet oraz sprzedaży drewna okrągłego,
-                  zrealizowałem następujące działania:<br />
-                  -Stworzenie i prowadzenie strony internetowej: Zbudowałem
-                  stronę od podstaw i zapewniam jej bieżące utrzymanie.
-                  <br />
-                  -Sesja zdjęciowa produktów: Wykonałem profesjonalne zdjęcia
-                  produktów, które firma wytwarza.
-                  <br />
-                  -Projektowanie wizytówek: Zaprojektowałem fizyczne wizytówki
-                  promujące firmę.
-                  <br />
-                  -Dostosowanie wizytówki Google Maps: Optymalizowałem wizytówkę
-                  firmy na Google Maps, aby lepiej odzwierciedlała jej
-                  działalność.
-                  <br />
-                  -Produkcja filmu promocyjnego: Stworzyłem film ukazujący
-                  proces produkcji, który podkreśla profesjonalizm i jakość
-                  usług firmy.
-                  <br />
+                  Realizacja działań promujących firmę specjalizującą się w
+                  produkcji elementów do palet i sprzedaży drewna okrągłego.
                 </p>
                 <button class="portfolio__card-text-btn">
                   <a
                     class="portfolio__card-text-btn-link"
                     href="https://drobdex.pl/"
-                    target="_blank"
-                    >Zobacz</a
-                  >
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio__card">
-            <div
-              class="portfolio__card-img img-first"
-              style="background-image: url('dist/img/dicopendrak.jpg')"
-            >
-              <h3 class="portfolio__card-title">"DISCO PENDRAK"</h3>
-              <div class="portfolio__card-bg">
-                <i class="fa-solid fa-arrow-pointer portfolio__cursor"></i>
-              </div>
-              <div class="portfolio__card-text">
-                <h3 class="portfolio__card-text-title">
-                  Projekt "DISCO PENDRAK"
-                </h3>
-                <p class="portfolio__card-text-p">
-                  Jestem założycielem i liderem projektu tworzącego content
-                  rozrywkowy. Moje obowiązki obejmują:<br />
-                  -Pisanie scenariuszy i tekstów: Tworzę oryginalne i wciągające
-                  treści.<br />
-                  -Filmowanie i montaż: Realizuję nagrania i montuję filmy,
-                  dbając o najwyższą jakość.<br />
-                  -Prowadzenie mediów społecznościowych: Zarządzam naszymi
-                  profilami, zwiększając zaangażowanie i zasięg.
-                </p>
-                <button class="portfolio__card-text-btn">
-                  <a
-                    class="portfolio__card-text-btn-link"
-                    href="https://youtube.com/@reveleq-studio"
                     target="_blank"
                     >Zobacz</a
                   >
@@ -352,16 +436,8 @@
                   Strona www zespołu "Kojsowiocki"
                 </h3>
                 <p class="portfolio__card-text-p">
-                  Zaprojektowałem, napisałem i obecnie prowadzę stronę
-                  internetową zespołu regionalnego. Było to moje pierwsze
-                  zlecenie stworzenia projektu od podstaw.
-                  <br />
-                  W ramach tego projektu:
-                  <br />
-                  -Projektowanie i tworzenie: Opracowałem koncepcję,
-                  zaprojektowałem wygląd i stworzyłem stronę od zera.<br />
-                  -Zarządzanie i aktualizacja: Regularnie aktualizuję stronę,
-                  aby zawsze była aktualna i funkcjonalna.<br />
+                  Zaprojektowanie i stworzenie strony internetowej zespołu
+                  regionalnego.
                 </p>
                 <button class="portfolio__card-text-btn">
                   <a
@@ -374,35 +450,93 @@
               </div>
             </div>
           </div>
-
-          <div class="portfolio__card">
+          <div class="portfolio__card portfolio__mobile-card">
             <div
-              class="portfolio__card-img img-second"
-              style="background-image: url('dist/img/mcprezentacje.png')"
+              class="portfolio__mobile-card-img portfolio__card-img img-second"
+              style="background-image: url('dist/img/gabriela&pawel.jpg')"
             >
-              <h3 class="portfolio__card-title">"MINECRAFT PREZENTACJE"</h3>
-              <div class="portfolio__card-bg">
-                <i class="fa-solid fa-arrow-pointer portfolio__cursor"></i>
-              </div>
-              <div class="portfolio__card-text">
-                <h3 class="portfolio__card-text-title">
-                  Projekt "Minecraft Prezentacje"
-                </h3>
+              <div class="portfolio__mobile-card-bg"></div>
+              <div class="portfolio__card-text portfolio__mobile-card-text">
+                <h3 class="portfolio__card-text-title">Gabriela & Paweł</h3>
                 <p class="portfolio__card-text-p">
-                  Jako wszechstronny specjalista w projekcie, pełnię wiele
-                  kluczowych ról:<br />
-                  -Lektor: Podkładam głos pod filmy promujące nasz projekt,
-                  dbając o profesjonalne brzmienie i przekaz.<br />
-                  -Doradca ds. montażu: Udzielam wskazówek i porad dotyczących
-                  montażu filmów, aby uzyskać jak najlepszy efekt końcowy.<br />
-                  -Programista i administrator strony www: Projektuję, rozwijam
-                  i prowadzę stronę internetową, zapewniając jej sprawne
-                  działanie i aktualność.<br />
+                  Filmowa realizacja życzeń od Pary Młodej dla rodziców
+                  (Gabriela & Paweł)
                 </p>
                 <button class="portfolio__card-text-btn">
                   <a
                     class="portfolio__card-text-btn-link"
-                    href="https://mcprezentacje.ct8.pl/"
+                    href=""
+                    target="_blank"
+                    >Zobacz</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__card portfolio__mobile-card">
+            <div
+              class="portfolio__mobile-card-img portfolio__card-img img-second"
+              style="background-image: url('dist/img/futsal.jpeg')"
+            >
+              <div class="portfolio__mobile-card-bg"></div>
+              <div class="portfolio__card-text portfolio__mobile-card-text">
+                <h3 class="portfolio__card-text-title">SUSKI FUTSAL</h3>
+                <p class="portfolio__card-text-p">
+                  Realizacja krótkich filmów skrótowych przedstawiających każdą
+                  kolejkę "SUSKIEJ AMATORSKIEJ LIGI FUTSALU"
+                </p>
+                <button class="portfolio__card-text-btn">
+                  <a
+                    class="portfolio__card-text-btn-link"
+                    href="https://www.youtube.com/playlist?list=PLBjb8viRNM_hTqF-Al1jVLPrusj9A4Hbx"
+                    target="_blank"
+                    >Zobacz</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__card portfolio__mobile-card">
+            <div
+              class="portfolio__mobile-card-img portfolio__card-img img-first"
+              style="background-image: url('dist/img/advo-cup.jpeg')"
+            >
+              <div class="portfolio__mobile-card-bg"></div>
+              <div class="portfolio__card-text portfolio__mobile-card-text">
+                <h3 class="portfolio__card-text-title">ADVO-CUP ZAWOJA 2024</h3>
+                <p class="portfolio__card-text-p">
+                  Stworzenie filmu podsumowującego VI Turniej Halowej Piłki
+                  Nożnej o Puchar Dziekana ORA Bielsko-Biała.
+                </p>
+                <button class="portfolio__card-text-btn">
+                  <a
+                    class="portfolio__card-text-btn-link"
+                    href="https://www.youtube.com/watch?v=j7uOaRI6LPw&ab_channel=REVELEQSTUDIO"
+                    target="_blank"
+                    >Zobacz</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__card portfolio__mobile-card">
+            <div
+              class="portfolio__mobile-card-img portfolio__card-img img-first"
+              style="background-image: url('dist/img/andrzejki.jpeg')"
+            >
+              <div class="portfolio__mobile-card-bg"></div>
+              <div class="portfolio__card-text portfolio__mobile-card-text">
+                <h3 class="portfolio__card-text-title">
+                  Andrzejki OSP Kojszówka
+                </h3>
+                <p class="portfolio__card-text-p">
+                  Realizacja filmu z imprezy Andrzejkowej organizowanej przez
+                  OSP Kojszówka.
+                </p>
+                <button class="portfolio__card-text-btn">
+                  <a
+                    class="portfolio__card-text-btn-link"
+                    href="https://www.youtube.com/watch?v=j7uOaRI6LPw&ab_channel=REVELEQSTUDIO"
                     target="_blank"
                     >Zobacz</a
                   >
@@ -419,13 +553,8 @@
               <div class="portfolio__card-text portfolio__mobile-card-text">
                 <h3 class="portfolio__card-text-title">Film "PUNKT ZWROTNY"</h3>
                 <p class="portfolio__card-text-p">
-                  Produkcja Krótkometrażowego Filmu Edukacyjnego We współpracy z
-                  fundacją Euro-idea zrealizowałem krótkometrażowy film
-                  edukacyjny. Moje zadania obejmowały:<br />
-                  Filmowanie: Odpowiadałem za rejestrowanie materiału wideo,
-                  dbając o jakość obrazu i ujęć.<br />
-                  Obsługa dźwięku: Zajmowałem się nagrywaniem, zapewniając
-                  klarowność i profesjonalizm nagrań.
+                  Realizacja filmu profilaktyczno-edukacyjnego w tematyce
+                  przemocy
                 </p>
                 <button class="portfolio__card-text-btn">
                   <a
@@ -449,16 +578,8 @@
                   Strona internetowa parafii
                 </h3>
                 <p class="portfolio__card-text-p">
-                  Zrealizowałem projekt odświeżenia strony internetowej Parafii
-                  Kojszówka-Wieprzec, obejmujący:<br />
-                  Stworzenie nowej strony: Opracowałem nowoczesną wersję strony,
-                  zastępując starą i poprawiając jej funkcjonalność oraz wygląd.
-                  <br />
-                  Sesja zdjęciowa: Wykonałem profesjonalne zdjęcia kościołów
-                  parafii, które zostały umieszczone na stronie, podkreślając
-                  ich architekturę.<br />
-                  Ten projekt połączył nowoczesny design z tradycją, poprawiając
-                  dostępność i estetykę strony parafialnej.
+                  Stworzenie odświezonej wersji strony internetowej parafii oraz
+                  wykoanie sesji zdjęciowej.
                 </p>
                 <button class="portfolio__card-text-btn">
                   <a
@@ -482,62 +603,13 @@
                   Reklama firmy "DROBDEX"
                 </h3>
                 <p class="portfolio__card-text-p">
-                  W ramach kompleksowej promocji firmy, specjalizującej się w
-                  produkcji elementów do palet oraz sprzedaży drewna okrągłego,
-                  zrealizowałem następujące działania:<br />
-                  -Stworzenie i prowadzenie strony internetowej: Zbudowałem
-                  stronę od podstaw i zapewniam jej bieżące utrzymanie.
-                  <br />
-                  -Sesja zdjęciowa produktów: Wykonałem profesjonalne zdjęcia
-                  produktów, które firma wytwarza.
-                  <br />
-                  -Projektowanie wizytówek: Zaprojektowałem fizyczne wizytówki
-                  promujące firmę.
-                  <br />
-                  -Dostosowanie wizytówki Google Maps: Optymalizowałem wizytówkę
-                  firmy na Google Maps, aby lepiej odzwierciedlała jej
-                  działalność.
-                  <br />
-                  -Produkcja filmu promocyjnego: Stworzyłem film ukazujący
-                  proces produkcji, który podkreśla profesjonalizm i jakość
-                  usług firmy.
-                  <br />
+                  Realizacja działań promujących firmę specjalizującą się w
+                  produkcji elementów do palet i sprzedaży drewna okrągłego.
                 </p>
                 <button class="portfolio__card-text-btn">
                   <a
                     class="portfolio__card-text-btn-link"
                     href="https://drobdex.pl/"
-                    target="_blank"
-                    >Zobacz</a
-                  >
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio__card portfolio__mobile-card">
-            <div
-              class="portfolio__mobile-card-img portfolio__card-img img-first"
-              style="background-image: url('dist/img/dicopendrak.jpg')"
-            >
-              <div class="portfolio__mobile-card-bg"></div>
-              <div class="portfolio__mobile-card-text">
-                <h3 class="portfolio__card-text-title">
-                  Projekt "DISCO PENDRAK"
-                </h3>
-                <p class="portfolio__card-text-p">
-                  Jestem założycielem i liderem projektu tworzącego content
-                  rozrywkowy. Moje obowiązki obejmują:<br />
-                  -Pisanie scenariuszy i tekstów: Tworzę oryginalne i wciągające
-                  treści.<br />
-                  -Filmowanie i montaż: Realizuję nagrania i montuję filmy,
-                  dbając o najwyższą jakość.<br />
-                  -Prowadzenie mediów społecznościowych: Zarządzam naszymi
-                  profilami, zwiększając zaangażowanie i zasięg.
-                </p>
-                <button class="portfolio__card-text-btn">
-                  <a
-                    class="portfolio__card-text-btn-link"
-                    href="https://youtube.com/@reveleq-studio"
                     target="_blank"
                     >Zobacz</a
                   >
@@ -556,16 +628,8 @@
                   Strona www zespołu "Kojsowiocki"
                 </h3>
                 <p class="portfolio__card-text-p">
-                  Zaprojektowałem, napisałem i obecnie prowadzę stronę
-                  internetową zespołu regionalnego. Było to moje pierwsze
-                  zlecenie stworzenia projektu od podstaw.
-                  <br />
-                  W ramach tego projektu:
-                  <br />
-                  -Projektowanie i tworzenie: Opracowałem koncepcję,
-                  zaprojektowałem wygląd i stworzyłem stronę od zera.<br />
-                  -Zarządzanie i aktualizacja: Regularnie aktualizuję stronę,
-                  aby zawsze była aktualna i funkcjonalna.<br />
+                  Zaprojektowanie i stworzenie strony internetowej zespołu
+                  regionalnego.
                 </p>
                 <button class="portfolio__card-text-btn">
                   <a
@@ -578,44 +642,12 @@
               </div>
             </div>
           </div>
-          <div class="portfolio__mobile-card portfolio__card">
-            <div
-              class="portfolio__mobile-card-img portfolio__card-img img-second"
-              style="background-image: url('dist/img/mcprezentacje.png')"
-            >
-              <div class="portfolio__mobile-card-bg"></div>
-              <div class="portfolio__mobile-card-text">
-                <h3 class="portfolio__card-text-title">
-                  Projekt "Minecraft Prezentacje"
-                </h3>
-                <p class="portfolio__card-text-p">
-                  Jako wszechstronny specjalista w projekcie, pełnię wiele
-                  kluczowych ról:<br />
-                  -Lektor: Podkładam głos pod filmy promujące nasz projekt,
-                  dbając o profesjonalne brzmienie i przekaz.<br />
-                  -Doradca ds. montażu: Udzielam wskazówek i porad dotyczących
-                  montażu filmów, aby uzyskać jak najlepszy efekt końcowy.<br />
-                  -Programista i administrator strony www: Projektuję, rozwijam
-                  i prowadzę stronę internetową, zapewniając jej sprawne
-                  działanie i aktualność.<br />
-                </p>
-                <button class="portfolio__card-text-btn">
-                  <a
-                    class="portfolio__card-text-btn-link"
-                    href="https://mcprezentacje.ct8.pl/"
-                    target="_blank"
-                    >Zobacz</a
-                  >
-                </button>
-              </div>
-            </div>
-          </div>
         </div>
         <a
           class="portfolio__more-btn"
           href="https://github.com/reveleq"
           target="_blank"
-          >Wszystkie projekty</a
+          >Github</a
         >
       </div>
     </section>
@@ -651,8 +683,8 @@
               <div class="offer__card-text-box">
                 <p class="offer__card-text-p">
                   Usługi filmowe od pomysłu po finalny montaż. Tworzymy filmy
-                  promocyjne, eventowe i teledyski z najwyższą jakością jaką
-                  możemy zapewnić.
+                  promocyjne, eventowe i teledyski, które wyróżniają się
+                  dbałością o każdy detal, dostosowane do Twoich potrzeb.
                 </p>
               </div>
             </div>
@@ -661,18 +693,14 @@
             <div class="offer__card-img third-offer">
               <div class="offer__card-bg"></div>
               <div class="offer__card-text">
-                <i
-                  class="fa-solid fa-share-from-square offer__card-text-icon"
-                ></i>
-                <h4 class="offer__card-text-title title">
-                  Prowadzenie social mediów
-                </h4>
+                <i class="fa-solid fa-camera offer__card-text-icon"></i>
+                <h4 class="offer__card-text-title title">Sesje zdjęciowe</h4>
               </div>
               <div class="offer__card-text-box">
                 <p class="offer__card-text-p">
-                  Zwiększ swoją widoczność online dzięki naszej kompleksowej
-                  obsłudze social media. Tworzymy treści, zarządzamy profilami i
-                  dbamy o interakcję z Twoimi odbiorcami.
+                  Uwiecznij wyjątkowe chwile dzięki naszym profesjonalnym sesjom
+                  zdjęciowym. Oferujemy zdjęcia pełne emocji, kreatywności i
+                  najwyższej jakości.
                 </p>
               </div>
             </div>
@@ -686,11 +714,11 @@
         <div class="contact__box">
           <div class="contact__item">
             <a
-              href="mailto:reveleq@gmail.com"
+              href="mailto:kontakt@reveleqstudio.pl"
               target="_blank"
               class="contact__text-paragraph"
               ><i class="fa-solid fa-envelope contact__icon"></i>
-              reveleq@gmail.com</a
+              kontakt@reveleqstudio.pl</a
             >
           </div>
         </div>
@@ -738,7 +766,7 @@
         <h3 class="footer__brand-title">REVELEQ-STUDIO</h3>
       </div>
       <div class="footer__links">
-        <a href="#o-mnie" class="footer__link">O mnie</a>
+        <a href="#o-nas" class="footer__link">O nas</a>
         <a href="#portfolio" class="footer__link">Portfolio</a>
         <a href="#oferta" class="footer__link">Oferta</a>
         <a href="#kontakt" class="footer__link">Kontakt</a>
